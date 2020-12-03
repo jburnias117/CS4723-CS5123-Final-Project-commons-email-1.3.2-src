@@ -30,7 +30,6 @@ pipeline {
             steps {
             	 echo 'Deliver stage (WAG__)..'
                 sh './jenkins/scripts/deliver.sh' 
-                echo "
             }
         }
     }
